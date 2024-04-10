@@ -1,0 +1,370 @@
+<html>
+
+<head>
+    <title>TimesheetPortal.com Transaction Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.11.1/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="firsttable.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="vertical-btn">
+                <button class="btn circle-btn"><i class="bi bi-chevron-left"></i></button>
+            </div>
+            <span class="bullhorn-gateway">Bullhorn Gateway</span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="datatable" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Type</th>
+                            <th>BH Entity</th>
+                            <th>Successful BH #</th>
+                            <th>Error BH #</th>
+                            <th>Message</th>
+                            <th>Time</th>
+                            <th>Successful</th>
+                            <th>Validation Error</th>
+                            <th>Raw Request</th>
+                            <th>Raw Response</th>
+                            <th>Action</th>
+                            
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>95047</td>
+                            <td>Job</td>
+                            <td>Placement</td>
+                            <td></td>
+                            <td>13044</td>
+                            <td>0 Placements created, 0 Placements updated, Errors were encountered importing
+                                placements, the attached placements were not imported.See ValidationErrors in
+                                ReturnObject for details.</td>
+                            <td>2023-12-05<br>09:19:15 UTC</td>
+                            <td>No</td>
+                            <td>null[*InternalServerException*],</td>
+                            <td>Show</td>
+                            <td>Show</td>
+                            <td><button class="button">Action</button>
+                                <div class="text-area">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="highlight">
+                            <td colspan="12">
+                                <div class="box-container">
+
+                                    {
+                                    "accountID": "3903774000002368032",
+                                    "placementID": "BH-12379",
+                                    "markup": "",
+                                    "W2_OT_Exemption_Status": "",
+                                    "data": "{\"Request_Type\":\"New
+                                    Engagement\",\"Engagement_Type\":\"W2\",\"Job_Engagement_Title\":\"PowerBI
+                                    Engineer\",\"Job_Description\":\"Duties - You will collaborate closely with
+                                    stakeholders to understand their data needs and translate those requirements into
+                                    effective visualizations that drive understanding and strategic decision-making .
+                                    Collaborate with business stakeholders to understand data requirements and
+                                    objectives for creating impactful Power BI dashboards and reports. Develop, design,
+                                    and maintain interactive and user-friendly Power BI dashboards that provide insights
+                                    into key performance indicators (KPIs), trends, and other relevant business metrics.
+                                    Transform raw data from various sources into clean, organized, and structured
+                                    datasets suitable for visualization. Implement data models, calculations, and DAX
+                                    expressions to support complex analytical requirements. Ensure data accuracy,
+                                    quality, and integrity in the generated reports and dashboards. Stay up-to-date with
+                                    the latest Power BI features and updates, incorporating best practices and
+                                    innovative techniques into your work. Collaborate with data engineers, analysts, and
+                                    other team members to enhance data integration and data visualization processes.
+                                    Optimize and fine-tune Power BI reports for performance, responsiveness, and
+                                    efficient data retrieval. Provide training and support to end-users to enable them
+                                    to effectively utilize and interpret Power BI reports. Participate in
+                                    cross-functional teams to define data visualization strategies and contribute to
+                                    overall data and analytics initiatives. Continuously seek opportunities to improve
+                                    and innovate data visualization practices within the organization.Must Have
+                                    Requirements - (Technical & Functional). 5+ years\\u2019 experience as a Power BI
+                                    Developer, Data Analyst, or similar role, with a strong portfolio showcasing Power
+                                    BI projects. Proficiency in designing and developing interactive Power BI
+                                    dashboards, reports, and data visualizations. Strong understanding of data modeling
+                                    concepts, ETL processes, and database structures. Proficiency in DAX (Data Analysis
+                                    Expressions) for creating calculated columns, measures, and complex calculations.
+                                    Familiarity with various data sources, including SQL databases, APIs, and flat
+                                    files. Strong problem-solving skills and the ability to analyze complex datasets to
+                                    derive meaningful insights. Excellent communication skills to effectively
+                                    collaborate with both technical and non-technical stakeholders. Experience with
+                                    other data visualization tools (Tableau, QlikView, etc.) is a plus. Ability to work
+                                    independently, manage multiple priorities, and meet
+                                    deadlines\",\"External_Ref_Code\":\"BH-12379\",\"Agency_Budget_Code\":\"US - iO IT -
+                                    TAMPA\",\"Start_Date\":2023-10-02,\"Ongoing\":false,\"End_Date\":2024-04-05,\"Expected_Hours_per_Week\":20,\"Contractor_Name\":{\"first_name\":\"Melvin\",\"last_name\":\"Black\"},\"Contractor_Address\":{\"address_line_1\":\"474
+                                    Knotgrass Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Contractor_Phone\":\"+1803804-1362\",\"Contractor_Email\":\"melvinblack@hotmail.com\",\"Corp_Name\":\"\",\"Registered_Address\":{\"address_line_1\":null,\"address_line_2\":null,\"district_city\":null,\"state_province\":null,\"postal_Code\":null,\"country\":null},\"Contact_Phone\":null,\"Contact_Email\":\"\",\"Contact_Name\":{\"first_name\":null,\"last_name\":null},\"End_Customer_Name\":\"ImagineX
+                                    Consulting\",\"End_Customer_Address\":{\"address_line_1\":\"1 Glenlake Parkway
+                                    NE\",\"address_line_2\":\"Sandy
+                                    Springs\",\"district_city\":\"Atlanta\",\"state_province\":\"GA\",\"postal_Code\":\"30328\",\"country\":\"United
+                                    States\"},\"End_Customer_Website\":{\"url\":\"https://imaginexconsulting.com/\"},\"Work_Location\":\"Worker's
+                                    Address\",\"Primary_Work_Location\":{\"address_line_1\":\"474 Knotgrass
+                                    Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Travel_Required_Anticipated\":\"No\",\"Location_Travel_Notes\":null,\"Timesheet_Period\":\"Weekly
+                                    Sun-Sat\",\"Timesheet_Approval_Process\":\"End
+                                    Customer\",\"New_Timesheet_Approver\":[{\"Name\":{\"first_name\":\"Dave\",\"last_name\":\"McClelland\"},\"Email\":\"dave.mcclelland@imaginexconsulting.com\"}],\"Enable_Expense_Reports\":false,\"Expense_Approval_Process\":null,\"New_Expense_Approver\":[],\"Base_Currency\":\"USD\",\"Pay_Currency\":\"USD\",\"Salaried\":false,\"Yearly_Salary\":null,\"Rates\":[{\"Pay_Rate\":65.00,\"Unit\":\"Hourly\",\"Rate_Type\":\"Standard\"}],\"LGWSInsurance\":true,\"insSubform\":[],\"Additional_Engagement_Notes\":\"No
+                                    Notes
+                                    Entered\",\"lgwsFeePercentage\":null,\"W2_OT_Exemption_Status\":null,\"Created_By_Email\":\"admin@precisionresourcegroup.co.uk\",\"Request_Owner_Email\":\"\"}",
+                                    "action": "Approved",
+                                    "accountID": "3903774000002368032",
+                                    "placementID": "BH-12379",
+                                    "markup": "",
+                                    "W2_OT_Exemption_Status": "",
+                                    "data": "{\"Request_Type\":\"New
+                                    Engagement\",\"Engagement_Type\":\"W2\",\"Job_Engagement_Title\":\"PowerBI
+                                    Engineer\",\"Job_Description\":\"Duties - You will collaborate closely with
+                                    stakeholders to understand their data needs and translate those requirements into
+                                    effective visualizations that drive understanding and strategic decision-making .
+                                    Collaborate with business stakeholders to understand data requirements and
+                                    objectives for creating impactful Power BI dashboards and reports. Develop, design,
+                                    and maintain interactive and user-friendly Power BI dashboards that provide insights
+                                    into key performance indicators (KPIs), trends, and other relevant business metrics.
+                                    Transform raw data from various sources into clean, organized, and structured
+                                    datasets suitable for visualization. Implement data models, calculations, and DAX
+                                    expressions to support complex analytical requirements. Ensure data accuracy,
+                                    quality, and integrity in the generated reports and dashboards. Stay up-to-date with
+                                    the latest Power BI features and updates, incorporating best practices and
+                                    innovative techniques into your work. Collaborate with data engineers, analysts, and
+                                    other team members to enhance data integration and data visualization processes.
+                                    Optimize and fine-tune Power BI reports for performance, responsiveness, and
+                                    efficient data retrieval. Provide training and support to end-users to enable them
+                                    to effectively utilize and interpret Power BI reports. Participate in
+                                    cross-functional teams to define data visualization strategies and contribute to
+                                    overall data and analytics initiatives. Continuously seek opportunities to improve
+                                    and innovate data visualization practices within the organization.Must Have
+                                    Requirements - (Technical & Functional). 5+ years\\u2019 experience as a Power BI
+                                    Developer, Data Analyst, or similar role, with a strong portfolio showcasing Power
+                                    BI projects. Proficiency in designing and developing interactive Power BI
+                                    dashboards, reports, and data visualizations. Strong understanding of data modeling
+                                    concepts, ETL processes, and database structures. Proficiency in DAX (Data Analysis
+                                    Expressions) for creating calculated columns, measures, and complex calculations.
+                                    Familiarity with various data sources, including SQL databases, APIs, and flat
+                                    files. Strong problem-solving skills and the ability to analyze complex datasets to
+                                    derive meaningful insights. Excellent communication skills to effectively
+                                    collaborate with both technical and non-technical stakeholders. Experience with
+                                    other data visualization tools (Tableau, QlikView, etc.) is a plus. Ability to work
+                                    independently, manage multiple priorities, and meet
+                                    deadlines\",\"External_Ref_Code\":\"BH-12379\",\"Agency_Budget_Code\":\"US - iO IT -
+                                    TAMPA\",\"Start_Date\":2023-10-02,\"Ongoing\":false,\"End_Date\":2024-04-05,\"Expected_Hours_per_Week\":20,\"Contractor_Name\":{\"first_name\":\"Melvin\",\"last_name\":\"Black\"},\"Contractor_Address\":{\"address_line_1\":\"474
+                                    Knotgrass Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Contractor_Phone\":\"+1803804-1362\",\"Contractor_Email\":\"melvinblack@hotmail.com\",\"Corp_Name\":\"\",\"Registered_Address\":{\"address_line_1\":null,\"address_line_2\":null,\"district_city\":null,\"state_province\":null,\"postal_Code\":null,\"country\":null},\"Contact_Phone\":null,\"Contact_Email\":\"\",\"Contact_Name\":{\"first_name\":null,\"last_name\":null},\"End_Customer_Name\":\"ImagineX
+                                    Consulting\",\"End_Customer_Address\":{\"address_line_1\":\"1 Glenlake Parkway
+                                    NE\",\"address_line_2\":\"Sandy
+                                    Springs\",\"district_city\":\"Atlanta\",\"state_province\":\"GA\",\"postal_Code\":\"30328\",\"country\":\"United
+                                    States\"},\"End_Customer_Website\":{\"url\":\"https://imaginexconsulting.com/\"},\"Work_Location\":\"Worker's
+                                    Address\",\"Primary_Work_Location\":{\"address_line_1\":\"474 Knotgrass
+                                    Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Travel_Required_Anticipated\":\"No\",\"Location_Travel_Notes\":null,\"Timesheet_Period\":\"Weekly
+                                    Sun-Sat\",\"Timesheet_Approval_Process\":\"End
+                                    Customer\",\"New_Timesheet_Approver\":[{\"Name\":{\"first_name\":\"Dave\",\"last_name\":\"McClelland\"},\"Email\":\"dave.mcclelland@imaginexconsulting.com\"}],\"Enable_Expense_Reports\":false,\"Expense_Approval_Process\":null,\"New_Expense_Approver\":[],\"Base_Currency\":\"USD\",\"Pay_Currency\":\"USD\",\"Salaried\":false,\"Yearly_Salary\":null,\"Rates\":[{\"Pay_Rate\":65.00,\"Unit\":\"Hourly\",\"Rate_Type\":\"Standard\"}],\"LGWSInsurance\":true,\"insSubform\":[],\"Additional_Engagement_Notes\":\"No
+                                    Notes
+                                    Entered\",\"lgwsFeePercentage\":null,\"W2_OT_Exemption_Status\":null,\"Created_By_Email\":\"admin@precisionresourcegroup.co.uk\",\"Request_Owner_Email\":\"\"}",
+                                    "action": "Approved",
+                                    "accountID": "3903774000002368032",
+                                    "placementID": "BH-12379",
+                                    "markup": "",
+                                    "W2_OT_Exemption_Status": "",
+                                    "data": "{\"Request_Type\":\"New
+                                    Engagement\",\"Engagement_Type\":\"W2\",\"Job_Engagement_Title\":\"PowerBI
+                                    Engineer\",\"Job_Description\":\"Duties - You will collaborate closely with
+                                    stakeholders to understand their data needs and translate those requirements into
+                                    effective visualizations that drive understanding and strategic decision-making .
+                                    Collaborate with business stakeholders to understand data requirements and
+                                    objectives for creating impactful Power BI dashboards and reports. Develop, design,
+                                    and maintain interactive and user-friendly Power BI dashboards that provide insights
+                                    into key performance indicators (KPIs), trends, and other relevant business metrics.
+                                    Transform raw data from various sources into clean, organized, and structured
+                                    datasets suitable for visualization. Implement data models, calculations, and DAX
+                                    expressions to support complex analytical requirements. Ensure data accuracy,
+                                    quality, and integrity in the generated reports and dashboards. Stay up-to-date with
+                                    the latest Power BI features and updates, incorporating best practices and
+                                    innovative techniques into your work. Collaborate with data engineers, analysts, and
+                                    other team members to enhance data integration and data visualization processes.
+                                    Optimize and fine-tune Power BI reports for performance, responsiveness, and
+                                    efficient data retrieval. Provide training and support to end-users to enable them
+                                    to effectively utilize and interpret Power BI reports. Participate in
+                                    cross-functional teams to define data visualization strategies and contribute to
+                                    overall data and analytics initiatives. Continuously seek opportunities to improve
+                                    and innovate data visualization practices within the organization.Must Have
+                                    Requirements - (Technical & Functional). 5+ years\\u2019 experience as a Power BI
+                                    Developer, Data Analyst, or similar role, with a strong portfolio showcasing Power
+                                    BI projects. Proficiency in designing and developing interactive Power BI
+                                    dashboards, reports, and data visualizations. Strong understanding of data modeling
+                                    concepts, ETL processes, and database structures. Proficiency in DAX (Data Analysis
+                                    Expressions) for creating calculated columns, measures, and complex calculations.
+                                    Familiarity with various data sources, including SQL databases, APIs, and flat
+                                    files. Strong problem-solving skills and the ability to analyze complex datasets to
+                                    derive meaningful insights. Excellent communication skills to effectively
+                                    collaborate with both technical and non-technical stakeholders. Experience with
+                                    other data visualization tools (Tableau, QlikView, etc.) is a plus. Ability to work
+                                    independently, manage multiple priorities, and meet
+                                    deadlines\",\"External_Ref_Code\":\"BH-12379\",\"Agency_Budget_Code\":\"US - iO IT -
+                                    TAMPA\",\"Start_Date\":2023-10-02,\"Ongoing\":false,\"End_Date\":2024-04-05,\"Expected_Hours_per_Week\":20,\"Contractor_Name\":{\"first_name\":\"Melvin\",\"last_name\":\"Black\"},\"Contractor_Address\":{\"address_line_1\":\"474
+                                    Knotgrass Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Contractor_Phone\":\"+1803804-1362\",\"Contractor_Email\":\"melvinblack@hotmail.com\",\"Corp_Name\":\"\",\"Registered_Address\":{\"address_line_1\":null,\"address_line_2\":null,\"district_city\":null,\"state_province\":null,\"postal_Code\":null,\"country\":null},\"Contact_Phone\":null,\"Contact_Email\":\"\",\"Contact_Name\":{\"first_name\":null,\"last_name\":null},\"End_Customer_Name\":\"ImagineX
+                                    Consulting\",\"End_Customer_Address\":{\"address_line_1\":\"1 Glenlake Parkway
+                                    NE\",\"address_line_2\":\"Sandy
+                                    Springs\",\"district_city\":\"Atlanta\",\"state_province\":\"GA\",\"postal_Code\":\"30328\",\"country\":\"United
+                                    States\"},\"End_Customer_Website\":{\"url\":\"https://imaginexconsulting.com/\"},\"Work_Location\":\"Worker's
+                                    Address\",\"Primary_Work_Location\":{\"address_line_1\":\"474 Knotgrass
+                                    Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Travel_Required_Anticipated\":\"No\",\"Location_Travel_Notes\":null,\"Timesheet_Period\":\"Weekly
+                                    Sun-Sat\",\"Timesheet_Approval_Process\":\"End
+                                    Customer\",\"New_Timesheet_Approver\":[{\"Name\":{\"first_name\":\"Dave\",\"last_name\":\"McClelland\"},\"Email\":\"dave.mcclelland@imaginexconsulting.com\"}],\"Enable_Expense_Reports\":false,\"Expense_Approval_Process\":null,\"New_Expense_Approver\":[],\"Base_Currency\":\"USD\",\"Pay_Currency\":\"USD\",\"Salaried\":false,\"Yearly_Salary\":null,\"Rates\":[{\"Pay_Rate\":65.00,\"Unit\":\"Hourly\",\"Rate_Type\":\"Standard\"}],\"LGWSInsurance\":true,\"insSubform\":[],\"Additional_Engagement_Notes\":\"No
+                                    Notes
+                                    Entered\",\"lgwsFeePercentage\":null,\"W2_OT_Exemption_Status\":null,\"Created_By_Email\":\"admin@precisionresourcegroup.co.uk\",\"Request_Owner_Email\":\"\"}",
+                                    "action": "Approved",
+                                    "accountID": "3903774000002368032",
+                                    "placementID": "BH-12379",
+                                    "markup": "",
+                                    "W2_OT_Exemption_Status": "",
+                                    "data": "{\"Request_Type\":\"New
+                                    Engagement\",\"Engagement_Type\":\"W2\",\"Job_Engagement_Title\":\"PowerBI
+                                    Engineer\",\"Job_Description\":\"Duties - You will collaborate closely with
+                                    stakeholders to understand their data needs and translate those requirements into
+                                    effective visualizations that drive understanding and strategic decision-making .
+                                    Collaborate with business stakeholders to understand data requirements and
+                                    objectives for creating impactful Power BI dashboards and reports. Develop, design,
+                                    and maintain interactive and user-friendly Power BI dashboards that provide insights
+                                    into key performance indicators (KPIs), trends, and other relevant business metrics.
+                                    Transform raw data from various sources into clean, organized, and structured
+                                    datasets suitable for visualization. Implement data models, calculations, and DAX
+                                    expressions to support complex analytical requirements. Ensure data accuracy,
+                                    quality, and integrity in the generated reports and dashboards. Stay up-to-date with
+                                    the latest Power BI features and updates, incorporating best practices and
+                                    innovative techniques into your work. Collaborate with data engineers, analysts, and
+                                    other team members to enhance data integration and data visualization processes.
+                                    Optimize and fine-tune Power BI reports for performance, responsiveness, and
+                                    efficient data retrieval. Provide training and support to end-users to enable them
+                                    to effectively utilize and interpret Power BI reports. Participate in
+                                    cross-functional teams to define data visualization strategies and contribute to
+                                    overall data and analytics initiatives. Continuously seek opportunities to improve
+                                    and innovate data visualization practices within the organization.Must Have
+                                    Requirements - (Technical & Functional). 5+ years\\u2019 experience as a Power BI
+                                    Developer, Data Analyst, or similar role, with a strong portfolio showcasing Power
+                                    BI projects. Proficiency in designing and developing interactive Power BI
+                                    dashboards, reports, and data visualizations. Strong understanding of data modeling
+                                    concepts, ETL processes, and database structures. Proficiency in DAX (Data Analysis
+                                    Expressions) for creating calculated columns, measures, and complex calculations.
+                                    Familiarity with various data sources, including SQL databases, APIs, and flat
+                                    files. Strong problem-solving skills and the ability to analyze complex datasets to
+                                    derive meaningful insights. Excellent communication skills to effectively
+                                    collaborate with both technical and non-technical stakeholders. Experience with
+                                    other data visualization tools (Tableau, QlikView, etc.) is a plus. Ability to work
+                                    independently, manage multiple priorities, and meet
+                                    deadlines\",\"External_Ref_Code\":\"BH-12379\",\"Agency_Budget_Code\":\"US - iO IT -
+                                    TAMPA\",\"Start_Date\":2023-10-02,\"Ongoing\":false,\"End_Date\":2024-04-05,\"Expected_Hours_per_Week\":20,\"Contractor_Name\":{\"first_name\":\"Melvin\",\"last_name\":\"Black\"},\"Contractor_Address\":{\"address_line_1\":\"474
+                                    Knotgrass Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Contractor_Phone\":\"+1803804-1362\",\"Contractor_Email\":\"melvinblack@hotmail.com\",\"Corp_Name\":\"\",\"Registered_Address\":{\"address_line_1\":null,\"address_line_2\":null,\"district_city\":null,\"state_province\":null,\"postal_Code\":null,\"country\":null},\"Contact_Phone\":null,\"Contact_Email\":\"\",\"Contact_Name\":{\"first_name\":null,\"last_name\":null},\"End_Customer_Name\":\"ImagineX
+                                    Consulting\",\"End_Customer_Address\":{\"address_line_1\":\"1 Glenlake Parkway
+                                    NE\",\"address_line_2\":\"Sandy
+                                    Springs\",\"district_city\":\"Atlanta\",\"state_province\":\"GA\",\"postal_Code\":\"30328\",\"country\":\"United
+                                    States\"},\"End_Customer_Website\":{\"url\":\"https://imaginexconsulting.com/\"},\"Work_Location\":\"Worker's
+                                    Address\",\"Primary_Work_Location\":{\"address_line_1\":\"474 Knotgrass
+                                    Drive\",\"address_line_2\":null,\"district_city\":\"Fort
+                                    Mill\",\"state_province\":\"SC\",\"postal_Code\":\"29715\",\"country\":\"United
+                                    States\"},\"Travel_Required_Anticipated\":\"No\",\"Location_Travel_Notes\":null,\"Timesheet_Period\":\"Weekly
+                                    Sun-Sat\",\"Timesheet_Approval_Process\":\"End
+                                    Customer\",\"New_Timesheet_Approver\":[{\"Name\":{\"first_name\":\"Dave\",\"last_name\":\"McClelland\"},\"Email\":\"dave.mcclelland@imaginexconsulting.com\"}],\"Enable_Expense_Reports\":false,\"Expense_Approval_Process\":null,\"New_Expense_Approver\":[],\"Base_Currency\":\"USD\",\"Pay_Currency\":\"USD\",\"Salaried\":false,\"Yearly_Salary\":null,\"Rates\":[{\"Pay_Rate\":65.00,\"Unit\":\"Hourly\",\"Rate_Type\":\"Standard\"}],\"LGWSInsurance\":true,\"insSubform\":[],\"Additional_Engagement_Notes\":\"No
+                                    Notes
+                                    Entered\",\"lgwsFeePercentage\":null,\"W2_OT_Exemption_Status\":null,\"Created_By_Email\":\"admin@precisionresourcegroup.co.uk\",\"Request_Owner_Email\":\"\"}",
+                                    "action": "Approved",
+                                    }
+
+
+
+                                </div>
+
+                            </td>
+
+
+
+
+                        <tr>
+                            <td>95046</td>
+                            <td>Approver</td>
+                            <td>ClientContact</td>
+                            <td>1624162</td>
+                            <td></td>
+                            <td>0 approvers created, 1 approvers updated.</td>
+                            <td>2023-12-05 09:19:15 UTC</td>
+                            <td>Yes</td>
+                            <td></td>
+                            <td>Show</td>
+                            <td>Show</td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td>95045</td>
+                            <td>Client</td>
+                            <td>Client Corporation</td>
+                            <td>1228</td>
+                            <td></td>
+                            <td>0 clients created,1 clients updated.</td>
+                            <td>2023-12-05 09:19:15 UTC</td>
+                            <td>Yes</td>
+                            <td></td>
+                            <td>Show</td>
+                            <td>Show</td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td>95044</td>
+                            <td>Contractor</td>
+                            <td>Candidate</td>
+                            <td>1759015</td>
+                            <td></td>
+                            <td>1 clients created,1 clients updated.</td>
+                            <td>2023-12-05 09:19:14 UTC</td>
+                            <td>Yes</td>
+                            <td></td>
+                            <td>Show</td>
+                            <td>Show</td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td>95043</td>
+                            <td>Admin</td>
+                            <td>CorporateUser</td>
+                            <td>808312</td>
+                            <td></td>
+                            <td>0 records created,1 records updated.</td>
+                            <td>2023-12-05 09:19:14 UTC</td>
+                            <td>Yes</td>
+                            <td></td>
+                            <td>Show</td>
+                            <td>Show</td>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

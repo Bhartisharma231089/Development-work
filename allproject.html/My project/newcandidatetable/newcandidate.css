@@ -1,0 +1,200 @@
+
+* {
+  box-sizing: border-box;
+}
+.table{
+  border: 2px yellow;
+}
+.wrapper {
+  max-width: 980px;
+  margin: 90px;
+  margin-top: 40px;
+}
+.outline{
+  border: 2px solid rgb(233 171 88);
+  border-radius: 5px;
+  background-color:white;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.wrapper > div {
+  border: 2px solid rgb(233 171 88);
+  border-radius: 5px;
+  background-color: white;
+  padding: 1em;
+  color:black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+ .button1 {
+   background-color:#202844;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button2 {
+   background-color:#fd7e14;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button3 {
+   background-color:green;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button4 {
+   background-color:#202844;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button5 {
+   background-color:#fd7e14;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button6 {
+   background-color:green;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+
+
+.outer-circle {
+ width: 10px; /* Adjust the size of the outer circle */
+ height: 10px;
+ background-color: white; /* Transparent background for the outer circle */
+ border: 2px solid white; /* Red border for the outer circle */
+ border-radius: 50%; /* Ensure the outer circle is circular */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: background-color 0.3s; /* Smooth transition for color change */
+ float: right;
+ position: relative;
+ cursor: pointer;
+}
+
+.outer-circle:hover {
+ background-color: red; /* Change background color of outer circle on hover */
+}
+
+.inner-circle {
+ width: 6px; /* Adjust the size of the inner circle */
+ height: 6px;
+ background-color: white; /* White background for the inner circle */
+ border: 2px solid red; /* Red border for the inner circle */
+ border-radius: 50%; /* Ensure the inner circle is circular */
+ transition: background-color 0.3s; /* Smooth transition for color change */
+ float: right;
+ cursor: pointer;
+
+}
+.inner-circle1 {
+ width: 6px; /* Adjust the size of the inner circle */
+ height: 6px;
+ background-color: white; /* White background for the inner circle */
+ border: 2px solid red; /* Red border for the inner circle */
+ border-radius: 50%; /* Ensure the inner circle is circular */
+ transition: background-color 0.3s; /* Smooth transition for color change */
+ float: right;
+ cursor: pointer;
+ margin-right: 2px;
+
+}
+
+.outer-circle:hover .inner-circle {
+ background-color: red; /* Change background color of inner circle on hover */
+}
