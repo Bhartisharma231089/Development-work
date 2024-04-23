@@ -1,249 +1,180 @@
 table {  
-   border-radius: 20px;
-   padding: 5px;
-  width: 100%;
-  border: 2px solid lightgrey;
-  }
-  th, td {
-    padding: 10px;
-    text-align: left;
-    font-size: 14px;
-    
-  }
-  tr{
-    font-family:sans-serif;
-     padding-left:2px;
-  }
-  .client{
-    font-family: sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    margin-top: 2px;
-    margin-bottom: 3px;
-    }
-    thead th[colspan] {
-      font-size: 10px;
-      text-align: left;
-      padding: 10px;
-      
-    }
-  
-    tr.line td {
-      text-align: center;
-      background-color: whitesmoke;
-      
-    }
-    tr.candidate.details th[colspan="2"] {
-    background-color: #44bb77;
-    border-top-right-radius: 11px;
-    border-top-left-radius:11px;
-      color: white; /* Set the text color to ensure readability */  
-      
-  }
+  border-radius: 25px;
+  padding: 5px;
+ width: 100%;
+ border: 2px solid lightgrey;
+
+ }
  
-  .candidate-section {
-    outline: 2px solid  #44bb77; /* Set the border of the candidate section */
-    border-radius: 11px;  
-}
-tr.candidate.details1 th[colspan="2"] {
-  background-color: #ffaa44; /* Set the background color of the specific row */
-  color: white; /* Set the text color to ensure readability */ 
-  border-top-right-radius: 11px;
-  border-top-left-radius:11px;
-}
-.candidate-section1 {
-  outline: 2px solid #ffaa44; /* Set the border of the candidate section */
-  border-radius: 11px;
-
-}
-tr.candidate.details2 th[colspan="2"] {
-  background-color: #3399dd; /* Set the background color of the specific row */
-  color: white; /* Set the text color to ensure readability */  
-  border-top-right-radius: 11px;
-  border-top-left-radius:11px;
-}
-.candidate-section2 {
-  outline: 2px solid #3399dd; /* Set the border of the candidate section */
-  border-radius: 11px;
-}
-     .dropdown-arrow {
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-left: 4px solid transparent;
-      border-right: 4px solid transparent;
-      border-top: 4px solid black;
-      margin-left: 5px; /* Adjust as needed */
-      vertical-align: middle;
-      cursor: pointer;
-    }
-
-    .address-details {
-      display: none;
-    }
-    
-    .address-row.expanded .address-details {
-      display: table-row;
-    }
-    
- .client1{
-  font-family: sans-serif;
+ th, td {
+   padding: 10px;
+   text-align: left;
+   font-size: 14px;
+ }
+ tr{
+   font-family:sans-serif;
+   padding: 4px;
+ 
+ }
+ .client{
+   font-family: sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   margin-top: 2px;
+   margin-bottom: 3px;
+ 
+   }
+.client1{
+ font-family: sans-serif;
 font-size: larger;
 font-weight: bold;
 margin-top: 2px;
 margin-bottom: 3px;
-  }
-  .client3{
-    padding-top: 2px;
-    margin-bottom: 5px;
-    margin-top: 2px;
-  }
-  tr:nth-child(even) { 
-    background-color:whitesmoke;
-  }
-  .inner-row{
-    color: #202844;
-    border-radius: 2px;
-    border: #fd7e14;
-  }
-  .button1 {
-    background-color:#202844;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
-  .button2 {
-    background-color:#fd7e14;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
-  .button3 {
-    background-color:green;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
-  .button4 {
-    background-color:#202844;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
-  .button5 {
-    background-color:#fd7e14;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
-  .button6 {
-    background-color:green;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    float:right;
-    border-radius: 13px;
-  }
+ }
+ .client3{
+   padding-top: 2px;
+   margin-bottom: 5px;
+   margin-top: 2px;
+ }
+ tr:nth-child(even) { 
+   background-color:whitesmoke;
+ }
+ th {
+   background-color:whitesmoke;
+ }
+ .inner-row{
+   color: #202844;
+   border-radius: 2px;
+   border: #fd7e14;
+ }
  
-
-.outer-circle {
-  width: 10px; /* Adjust the size of the outer circle */
-  height: 10px;
-  background-color: white; /* Transparent background for the outer circle */
-  border: 2px solid white; /* Red border for the outer circle */
-  border-radius: 50%; /* Ensure the outer circle is circular */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s; /* Smooth transition for color change */
-  float: right;
-  position: relative;
-  cursor: pointer;
+ .button1 {
+   background-color:#202844;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button2 {
+   background-color:#fd7e14;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button3 {
+   background-color:green;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button4 {
+   background-color:#202844;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button5 {
+   background-color:#fd7e14;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+ }
+ .button6 {
+   background-color:green;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   float:right;
+   border-radius: 13px;
+   
+ }
+ .circle-icon {
+   width: 8px;
+   height: 8px;
+   border: 2px solid red;
+   border-radius: 50%;
+   transition: transform 0.3s;
+   float: right;
 }
-
-.outer-circle:hover {
-  background-color: red; /* Change background color of outer circle on hover */
+.circle-icon:hover {
+   transform: scale(1.2);
+   background-color: red;
 }
-
-.inner-circle {
-  width: 6px; /* Adjust the size of the inner circle */
-  height: 6px;
-  background-color: white; /* White background for the inner circle */
-  border: 2px solid red; /* Red border for the inner circle */
-  border-radius: 50%; /* Ensure the inner circle is circular */
-  transition: background-color 0.3s; /* Smooth transition for color change */
-  float: right;
-  cursor: pointer;
+.circle-icon1 {
+   width: 8px;
+   height: 8px;
+   border: 2px solid green;
+   border-radius: 50%;
+   transition: transform 0.3s;
+   float: right;
+   animation:ease-in-out;
 
 }
-.inner-circle1 {
-  width: 6px; /* Adjust the size of the inner circle */
-  height: 6px;
-  background-color: white; /* White background for the inner circle */
-  border: 2px solid red; /* Red border for the inner circle */
-  border-radius: 50%; /* Ensure the inner circle is circular */
-  transition: background-color 0.3s; /* Smooth transition for color change */
-  float: right;
-  cursor: pointer;
-  margin-right: 2px;
+.circle-icon2 {
+ width: 8px;
+ height: 8px;
+ border: 2px solid red;
+ border-radius: 50%;
+ transition: transform 0.3s;
+ float: right;
+ animation:ease-in-out;
 
 }
-
-.outer-circle:hover .inner-circle {
-  background-color: red; /* Change background color of inner circle on hover */
+.circle-icon1:hover {
+   transform: scale(1.2);
+   background-color: green;
 }
