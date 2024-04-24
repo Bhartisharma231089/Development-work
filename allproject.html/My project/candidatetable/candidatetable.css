@@ -67,12 +67,13 @@ tr.candidate.details2 th[colspan="2"] {
   border-radius: 11px;
 }
 
-.vertical-bar {
-  border-left: 4px solid #ffaa44;
-  height: 100px;
-  width: 1em;
-  margin-left: 5px;
+.bar {
+  border-left: 1px solid #ffaa44;
+  margin-left: -6px;
+  position: absolute;
+  height: 50px;
 }
+
 
 a {
   color: white;  /* Default link color */
