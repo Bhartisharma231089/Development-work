@@ -1,180 +1,258 @@
 table {  
-  border-radius: 25px;
-  padding: 5px;
- width: 100%;
- border: 2px solid lightgrey;
+   border-radius: 20px;
+   padding: 5px;
+  width: 100%;
+  border: 2px solid lightgrey;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    
+  }
+  tr{
+    font-family:sans-serif;
+    padding-left: 8px;
+  }
+  .client{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    }
+    thead th[colspan] {
+      font-size: 10px;
+      text-align: left;
+      padding: 10px;
+      
+    }
+  
+    tr.line td {
+      text-align: center;
+      background-color: whitesmoke;
+      
+    }
+    tr.candidate.details th[colspan="2"] {
+    background-color: #44bb77;
+    border-top-right-radius: 11px;
+    border-top-left-radius:11px;
+      color: white; /* Set the text color to ensure readability */  
+      
+  }
+ 
+  .candidate-section {
+    outline: 2px solid  #44bb77; /* Set the border of the candidate section */
+    border-radius: 11px;  
+}
+tr.candidate.details1 th[colspan="2"] {
+  background-color: #ffaa44; /* Set the background color of the specific row */
+  color: white; /* Set the text color to ensure readability */ 
+  border-top-right-radius: 11px;
+  border-top-left-radius:11px;
+}
+.candidate-section1 {
+  outline: 2px solid #ffaa44; /* Set the border of the candidate section */
+  border-radius: 11px;
 
- }
- 
- th, td {
-   padding: 10px;
-   text-align: left;
-   font-size: 14px;
- }
- tr{
-   font-family:sans-serif;
-   padding: 4px;
- 
- }
- .client{
-   font-family: sans-serif;
-   font-size: larger;
-   font-weight: bold;
-   margin-top: 2px;
-   margin-bottom: 3px;
- 
-   }
-.client1{
- font-family: sans-serif;
+}
+tr.candidate.details2 th[colspan="2"] {
+  background-color: #3399dd; /* Set the background color of the specific row */
+  color: white; /* Set the text color to ensure readability */  
+  border-top-right-radius: 11px;
+  border-top-left-radius:11px;
+}
+.candidate-section2 {
+  outline: 2px solid #3399dd; /* Set the border of the candidate section */
+  border-radius: 11px;
+}
+
+.vertical-bar {
+  border-left: 4px solid #ffaa44;
+  height: 100px;
+  width: 1em;
+  margin-left: 5px;
+}
+
+a {
+  color: white;  /* Default link color */
+  text-decoration: none;  /* Remove underline */
+  font-weight: bold;  /* Make text bold */
+  transition: color 0.3s;  /* Smooth color transition */
+}
+a:hover {
+  color: white;  /* Change color on hover */
+  text-decoration: underline;  /* Add underline on hover */
+}
+     .dropdown-arrow {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid black;
+      margin-left: 6px; /* Adjust as needed */
+      vertical-align: middle;
+      cursor: pointer;
+    } 
+ .client1{
+  font-family: sans-serif;
 font-size: larger;
 font-weight: bold;
 margin-top: 2px;
 margin-bottom: 3px;
- }
- .client3{
-   padding-top: 2px;
-   margin-bottom: 5px;
-   margin-top: 2px;
- }
- tr:nth-child(even) { 
-   background-color:whitesmoke;
- }
- th {
-   background-color:whitesmoke;
- }
- .inner-row{
-   color: #202844;
-   border-radius: 2px;
-   border: #fd7e14;
- }
+  }
+  .client3{
+    padding-top: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  tr:nth-child(even) { 
+    background-color:whitesmoke;
+  }
+  .inner-row{
+    color: #202844;
+    border-radius: 2px;
+    border: #fd7e14;
+  }
+  .button1 {
+    background-color:#202844;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
+  .button2 {
+    background-color:#fd7e14;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
+  .button3 {
+    background-color:green;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
+  .button4 {
+    background-color:#202844;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
+  .button5 {
+    background-color:#fd7e14;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
+  .button6 {
+    background-color:green;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    float:right;
+    border-radius: 13px;
+  }
  
- .button1 {
-   background-color:#202844;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button2 {
-   background-color:#fd7e14;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button3 {
-   background-color:green;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button4 {
-   background-color:#202844;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button5 {
-   background-color:#fd7e14;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button6 {
-   background-color:green;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
-   
- }
- .circle-icon {
-   width: 8px;
-   height: 8px;
-   border: 2px solid red;
-   border-radius: 50%;
-   transition: transform 0.3s;
-   float: right;
+
+.outer-circle {
+  width: 10px; /* Adjust the size of the outer circle */
+  height: 10px;
+  background-color: white; /* Transparent background for the outer circle */
+  border: 2px solid white; /* Red border for the outer circle */
+  border-radius: 50%; /* Ensure the outer circle is circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s; /* Smooth transition for color change */
+  float: right;
+  position: relative;
+  cursor: pointer;
 }
-.circle-icon:hover {
-   transform: scale(1.2);
-   background-color: red;
+
+.outer-circle:hover {
+  background-color: red; /* Change background color of outer circle on hover */
 }
-.circle-icon1 {
-   width: 8px;
-   height: 8px;
-   border: 2px solid green;
-   border-radius: 50%;
-   transition: transform 0.3s;
-   float: right;
-   animation:ease-in-out;
+
+.inner-circle {
+  width: 6px; /* Adjust the size of the inner circle */
+  height: 6px;
+  background-color: white; /* White background for the inner circle */
+  border: 2px solid red; /* Red border for the inner circle */
+  border-radius: 50%; /* Ensure the inner circle is circular */
+  transition: background-color 0.3s; /* Smooth transition for color change */
+  float: right;
+  cursor: pointer;
 
 }
-.circle-icon2 {
- width: 8px;
- height: 8px;
- border: 2px solid red;
- border-radius: 50%;
- transition: transform 0.3s;
- float: right;
- animation:ease-in-out;
+.inner-circle1 {
+  width: 6px; /* Adjust the size of the inner circle */
+  height: 6px;
+  background-color: white; /* White background for the inner circle */
+  border: 2px solid red; /* Red border for the inner circle */
+  border-radius: 50%; /* Ensure the inner circle is circular */
+  transition: background-color 0.3s; /* Smooth transition for color change */
+  float: right;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  cursor: pointer;
+  margin-right: 2px;
 
 }
-.circle-icon1:hover {
-   transform: scale(1.2);
-   background-color: green;
+
+.outer-circle:hover .inner-circle {
+  background-color: red; /* Change background color of inner circle on hover */
 }
