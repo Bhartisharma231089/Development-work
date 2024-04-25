@@ -62,16 +62,31 @@ tr.candidate.details2 th[colspan="2"] {
   border-top-right-radius: 11px;
   border-top-left-radius:11px;
 }
+tr.candidate.details3 th[colspan="2"] {
+  background-color: #fd7e14;; /* Set the background color of the specific row */
+  color: white; /* Set the text color to ensure readability */  
+  border-top-right-radius: 11px;
+  border-top-left-radius:11px;
+}
 .candidate-section2 {
   outline: 2px solid #3399dd; /* Set the border of the candidate section */
   border-radius: 11px;
 }
+.candidate-section3 {
+  outline: 2px solid #202844; /* Set the border of the candidate section */
+  border-radius: 11px;
+  
+}
+.text{
+  margin-left: 20px;
 
+}
 .bar {
   border-left: 1px solid #ffaa44;
-  margin-left: -5px;
+  padding-top: 20px;
+  margin-left: -3px;
   position: absolute;
-  height: 50px;
+  height: 70px;
 }
 
 
