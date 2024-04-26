@@ -63,7 +63,7 @@ tr.candidate.details2 th[colspan="2"] {
   border-top-left-radius:11px;
 }
 tr.candidate.details3 th[colspan="2"] {
-  background-color: #fd7e14;; /* Set the background color of the specific row */
+  background-color: #202844 ; /* Set the background color of the specific row */
   color: white; /* Set the text color to ensure readability */  
   border-top-right-radius: 11px;
   border-top-left-radius:11px;
@@ -75,21 +75,18 @@ tr.candidate.details3 th[colspan="2"] {
 .candidate-section3 {
   outline: 2px solid #202844; /* Set the border of the candidate section */
   border-radius: 11px;
-  
+ 
 }
 .text{
   margin-left: 20px;
-
 }
 .bar {
-  border-left: 1px solid #ffaa44;
+  border-left: 2px solid #ffaa44;
   padding-top: 20px;
-  margin-left: -3px;
+  margin-left: -5px;
   position: absolute;
   height: 70px;
 }
-
-
 a {
   color: white;  /* Default link color */
   text-decoration: none;  /* Remove underline */
@@ -112,7 +109,7 @@ a:hover {
       cursor: pointer;
     } 
  .client1{
-  font-family: sans-serif;
+ font-family: sans-serif;
 font-size: larger;
 font-weight: bold;
 margin-top: 2px;
