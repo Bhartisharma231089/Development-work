@@ -1,0 +1,202 @@
+/** {
+  box-sizing: border-box;
+}*/
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+  }
+  .header {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 3px;
+    background-color: #202844;
+    color: white;
+  }
+  .Container {
+    height: 3000px;
+    margin-top: 3px;
+    width: 100%;
+    border:0px solid lightgrey;
+  }
+  .row{
+    display: flex;
+  }
+  .column1{
+    background-color: white;
+    margin-left: 7px;
+    height: 2000px;
+    width: 50%;
+    border: 1px solid lightgrey;
+    padding-top: 4px;  
+    margin-top: 2px;
+  }
+  .column2{ 
+    background-color: white;
+    height: 2000px;
+    width: 95%;
+    margin-left: 7px;
+    border: 0px solid lightgrey;
+    padding-top: 4px;
+    margin-top: 2px;
+  }
+   .left-column-row1  {
+    background-color: white;
+    margin-left: 7px;
+    height: 700px;
+    width: 95%;
+    margin-top: 10px;
+    border: 2px solid lightgrey;
+    padding-top: 3px;
+  }
+  .left-column-row2{
+    background-color: white;
+    margin-left: 7px;
+    height: 200px;
+    width: 95%;
+    margin-top: 10px;
+    border: 2px solid lightgrey;
+    padding-top: 3px;
+  }
+ 
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  table {  
+    border-radius: 0px;
+    padding-top: 3px;
+   width: 100%;
+   
+   }
+   th, td {
+     padding: 7px;
+     text-align: left;
+     font-size: 14px;
+  
+   }
+   tr{
+     font-family:sans-serif;
+     padding-left: 8px;
+   }
+   .client{
+     font-family: sans-serif;
+     font-size: larger;
+     font-weight: bold;
+     margin-top: 2px;
+     margin-bottom: 3px;
+     }
+    
+     thead th[colspan] {
+       font-size: 10px;
+       text-align: left;
+       padding: 10px;
+     }
+     tr.line td {
+       text-align: center;
+       background-color: whitesmoke; 
+     }
+     tr.candidate.details th[colspan="2"] {
+     background-color: #44bb77;
+     border-top-right-radius: 11px;
+     border-top-left-radius:11px;
+      color: white; /* Set the text color to ensure readability */  
+   }
+   .candidate-section {
+     outline: 2px solid  #44bb77; /* Set the border the candidate section */
+     border-radius: 0px;
+     padding-right: 3px;
+  }
+ 
+  tr.candidate.details1 th[colspan="2"] {
+   background-color: #ffaa44; /* Set the background color of the specific row */
+   color: white; /* Set the text color to ensure readability */ 
+   border-top-right-radius: 11px;
+   border-top-left-radius:11px;
+  }
+  .candidate-section1 {
+   outline: 2px solid #ffaa44; /* Set the border of the candidate section */
+   border-radius: 11px;
+  }
+  tr.candidate.details2 th[colspan="2"] {
+   background-color: #3399dd; /* Set the background color of the specific row */
+   color: white; /* Set the text color to ensure readability */  
+   border-top-right-radius: 11px;
+   border-top-left-radius:11px;
+  }
+  tr.candidate.details3 th[colspan="2"] {
+   background-color: #202844 ; /* Set the background color of the specific row */
+   color: white; /* Set the text color to ensure readability */  
+   border-top-right-radius: 11px;
+   border-top-left-radius:11px;
+  }
+  .candidate-section2 {
+   outline: 2px solid #3399dd; /* Set the border of the candidate section */
+   border-radius: 11px;
+  }
+  .candidate-section3 {
+   outline: 2px solid #202844; /* Set the border of the candidate section */
+   border-radius: 11px;
+
+  }
+  .text{
+   margin-left: 20px;
+  }
+  .bar {
+   border-left: 2px solid #ffaa44;
+   padding-top: 20px;
+   margin-left: -5px;
+   position: absolute;
+   height: 70px;
+  }
+  a {
+   color: white;  /* Default link color */
+   text-decoration: none;  /* Remove underline */
+   font-weight: bold;  /* Make text bold */
+   transition: color 0.3s;  /* Smooth color transition */
+  }
+  a:hover {
+   color: white;  /* Change color on hover */
+   text-decoration: underline;  /* Add underline on hover */
+  }
+      .dropdown-arrow {
+       display: inline-block;
+       width: 0;
+       height: 0;
+       border-left: 4px solid transparent;
+       border-right: 4px solid transparent;
+       border-top: 4px solid black;
+       margin-left: 6px; /* Adjust as needed */
+       vertical-align: middle;
+       cursor: pointer;
+     } 
+  .client1{
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 3px;
+   }
+   .client3{
+     padding-top: 2px;
+     margin-bottom: 5px;
+     margin-top: 2px;
+   }
+   tr:nth-child(even) { 
+     background-color:whitesmoke;
+   }
+  
+   .inner-row{
+     color: #202844;
+     border-radius: 2px;
+     border: #fd7e14;
+   }

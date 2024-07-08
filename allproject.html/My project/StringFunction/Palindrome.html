@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Repeatstring.css">
+<title>Palindrome Program</title>
+</head>
+<body> 
+  <p id="demo">bharti</p>
+    <script>
+          function validatePalin(str) {  
+            
+              // get the total length of the words  
+              const len = str.length;  
+            
+              // Use for loop to divide the words into 2 half  
+              for (let i = 0; i < len / 2; i++) {  
+            
+                  // validate the first and last characters are same  
+                  if (str[i] !== str[len - 1 - i]) {  
+                      alert( 'It is not a palindrome');  
+                  }  
+              }  
+              alert( 'It is a palindrome');  
+          }  
+          // accept the string or number from the prompt  
+          const vbn = prompt('Enter a string or number: ');  
+            
+          const value = validatePalin(vbn);  
+            
+          console.log(value);
+         
+   </script>
+    </body>
+    </html>

@@ -7,5 +7,5 @@ function updateColor() {
     var textField = document.getElementById("textInput");
 
 
-    textField.style.color = chosenColor;
+    textField.style.color = chosencolor;
 }

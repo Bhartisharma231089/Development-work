@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Repeatstring.css">
+<title>Pyramidnestedloops Program</title>
+</head>
+<body> 
+    <p id="rows">bharti</p>
+    <script>
+   
+   function generatePyramid(n) {
+    let result = ' ';
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+            result += j + ' ';
+        }
+        result += '\n'; 
+    }
+    return result;
+}
+
+function printPyramid() {
+    const n = 4; 
+    const pyramid = generatePyramid(n);
+    console.log(pyramid);
+}
+printPyramid();
+      </script>
+</body>
+</html>

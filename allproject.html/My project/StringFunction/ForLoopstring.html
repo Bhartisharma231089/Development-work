@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Repeatstring.css">
+<title>ForLoopString Program</title>
+</head>
+<body> 
+  <p id="demo">bharti</p>
+    <script>
+    const cars = ["BMW", "Fiat", "Audi"];
+    
+    let text = "";
+    for (let i = 0; i < cars.length; i++) {
+      text += cars[i];
+    }
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    </body>
+    </html>

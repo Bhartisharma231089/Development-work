@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Repeatstring.css">
+<title>Pyramidnestedloops Program</title>
+</head>
+<body> 
+    <script>
+        function noOfVowels(string) {
+      var listOfVowels = 'aAeEiIoOuU';
+      var vowelsCount = 0;
+      for(var i = 0; i < string.length ; i++) {
+         if (listOfVowels.indexOf(string[i]) !== -1) {
+            vowelsCount += 1;
+        }
+      }
+   return vowelsCount;
+   }
+   document.write(noOfVowels("My Name is Devika Sharma"));
+    </script>
+    </body>
+    </html>

@@ -7,11 +7,14 @@ table {
   th, td {
     padding: 10px;
     text-align: left;
-    font-size: 14px;
+    font-size: 15px;
+    height: 20px;
     
   }
   tr{
     font-family:sans-serif;
+    padding-left: 8px;
+    
   }
   .client{
     font-family: sans-serif;
@@ -61,9 +64,40 @@ tr.candidate.details2 th[colspan="2"] {
   border-top-right-radius: 11px;
   border-top-left-radius:11px;
 }
+tr.candidate.details3 th[colspan="2"] {
+  background-color: #202844 ; /* Set the background color of the specific row */
+  color: white; /* Set the text color to ensure readability */  
+  border-top-right-radius: 11px;
+  border-top-left-radius:11px;
+}
 .candidate-section2 {
   outline: 2px solid #3399dd; /* Set the border of the candidate section */
   border-radius: 11px;
+}
+.candidate-section3 {
+  outline: 2px solid #202844; /* Set the border of the candidate section */
+  border-radius: 11px;
+ 
+}
+.text{
+  margin-left: 20px;
+}
+.bar {
+  border-left: 2px solid #ffaa44;
+  padding-top: 20px;
+  margin-left: -5px;
+  position: absolute;
+  height: 70px;
+}
+a {
+  color: white;  /* Default link color */
+  text-decoration: none;  /* Remove underline */
+  font-weight: bold;  /* Make text bold */
+  transition: color 0.3s;  /* Smooth color transition */
+}
+a:hover {
+  color: white;  /* Change color on hover */
+  text-decoration: underline;  /* Add underline on hover */
 }
      .dropdown-arrow {
       display: inline-block;
@@ -72,21 +106,12 @@ tr.candidate.details2 th[colspan="2"] {
       border-left: 4px solid transparent;
       border-right: 4px solid transparent;
       border-top: 4px solid black;
-      margin-left: 5px; /* Adjust as needed */
+      margin-left: 6px; /* Adjust as needed */
       vertical-align: middle;
       cursor: pointer;
-    }
-
-    .address-details {
-      display: none;
-    }
-    
-    .address-row.expanded .address-details {
-      display: table-row;
-    }
-    
+    } 
  .client1{
-  font-family: sans-serif;
+ font-family: sans-serif;
 font-size: larger;
 font-weight: bold;
 margin-top: 2px;
@@ -124,7 +149,7 @@ margin-bottom: 3px;
     background-color:#fd7e14;
     color: white;
     border: none;
-    padding: 15px 32px;
+    padding: 15px 32px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -237,7 +262,7 @@ margin-bottom: 3px;
   border: 2px solid red; /* Red border for the inner circle */
   border-radius: 50%; /* Ensure the inner circle is circular */
   transition: background-color 0.3s; /* Smooth transition for color change */
-  float: right;
+  float: right;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
   cursor: pointer;
   margin-right: 2px;
 

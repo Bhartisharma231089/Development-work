@@ -1,200 +1,205 @@
-
-* {
+/** {
   box-sizing: border-box;
+}*/
+body {
+  margin: 0;
+  font-family: Arial;
+  padding: 0;
 }
-.table{
-  border: 2px yellow;
+.header {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 3px;
+  background-color: #202844;
+  color: white;
 }
-.wrapper {
-  max-width: 980px;
-  margin: 90px;
-  margin-top: 40px;
+.Container {
+  height: 3000px;
+  margin-top: 3px;
+  width: 100%;
+  border:0px solid lightgrey;
 }
-.outline{
-  border: 2px solid rgb(233 171 88);
-  border-radius: 5px;
-  background-color:white;
-  padding: 5px;
-  margin-top: 10px;
+.row{
+  display: flex;
 }
-
-.wrapper > div {
-  border: 2px solid rgb(233 171 88);
-  border-radius: 5px;
+.column1{
   background-color: white;
-  padding: 1em;
-  color:black;
+  margin-left: 7px;
+  height: 2000px;
+  width: 40%;
+  margin-top: 20px;
+  border: 1px solid lightgrey;
+  padding-top: 2px;
+  
 }
+.column2{ 
+  background-color: white;
+  height: 2000px;
+  width: 40%;
+  margin-left: 7px;
+  border: 1px solid lightgrey;
+  padding-top: 2px;
+}
+ .left-column-row1  {
+  background-color: white;
+  margin-left: 7px;
+  height: 700px;
+  width: 95%;
+  margin-top: 10px;
+  border: 2px solid lightgrey;
+  padding-top: 3px;
+}
+.left-column-row2{
+  background-color: white;
+  margin-left: 7px;
+  height: 200px;
+  width: 95%;
+  margin-top: 10px;
+  border: 0px solid lightgrey;
+  padding-top: 3px;
+}
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+table {  
+  border-radius: 0px;
+  padding-top: 3px;
+ width: 100%;
+ 
+ }
+ th, td {
+   padding: 7px;
+   text-align: left;
+   font-size: 14px;
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.one {
-  grid-column: 1;
-  grid-row: 1;
-}
-.two {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
-}
-.three {
-  grid-column: 1;
-  grid-row: 2 / 5;
-}
-.four {
-  grid-column: 3;
-  grid-row: 3;
-}
-.five {
-  grid-column: 2;
-  grid-row: 4;
-}
-.six {
-  grid-column: 3;
-  grid-row: 4;
-}
-
- .button1 {
-   background-color:#202844;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
  }
- .button2 {
-   background-color:#fd7e14;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
+ tr{
+   font-family:sans-serif;
+   padding-left: 8px;
  }
- .button3 {
-   background-color:green;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button4 {
-   background-color:#202844;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button5 {
-   background-color:#fd7e14;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
- }
- .button6 {
-   background-color:green;
-   color: white;
-   border: none;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   margin: 4px 2px;
-   margin-top: 15px;
-   margin-bottom: 20px;
-   cursor: pointer;
-   float:right;
-   border-radius: 13px;
+ .client{
+   font-family: sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   margin-top: 2px;
+   margin-bottom: 3px;
+   }
+   
+   thead th[colspan] {
+     font-size: 10px;
+     text-align: left;
+     padding: 10px;
+    
+   }
+ 
+   tr.line td {
+     text-align: center;
+     background-color: whitesmoke;
+    
+   }
+   tr.candidate.details th[colspan="2"] {
+   background-color: #44bb77;
+   border-top-right-radius: 11px;
+   border-top-left-radius:11px;
+    color: white; /* Set the text color to ensure readability */  
  }
 
-
-.outer-circle {
- width: 10px; /* Adjust the size of the outer circle */
- height: 10px;
- background-color: white; /* Transparent background for the outer circle */
- border: 2px solid white; /* Red border for the outer circle */
- border-radius: 50%; /* Ensure the outer circle is circular */
- display: flex;
- justify-content: center;
- align-items: center;
- transition: background-color 0.3s; /* Smooth transition for color change */
- float: right;
- position: relative;
- cursor: pointer;
+ .candidate-section {
+   outline: 0px solid  #44bb77; /* Set the border the candidate section */
+   border-radius: 0px;
+   padding-right: 3px;
+   
 }
-
-.outer-circle:hover {
- background-color: red; /* Change background color of outer circle on hover */
+tr.candidate.details1 th[colspan="2"] {
+ background-color: #ffaa44; /* Set the background color of the specific row */
+ color: white; /* Set the text color to ensure readability */ 
+ border-top-right-radius: 11px;
+ border-top-left-radius:11px;
 }
-
-.inner-circle {
- width: 6px; /* Adjust the size of the inner circle */
- height: 6px;
- background-color: white; /* White background for the inner circle */
- border: 2px solid red; /* Red border for the inner circle */
- border-radius: 50%; /* Ensure the inner circle is circular */
- transition: background-color 0.3s; /* Smooth transition for color change */
- float: right;
- cursor: pointer;
-
+.candidate-section1 {
+ outline: 2px solid #ffaa44; /* Set the border of the candidate section */
+ border-radius: 11px;
 }
-.inner-circle1 {
- width: 6px; /* Adjust the size of the inner circle */
- height: 6px;
- background-color: white; /* White background for the inner circle */
- border: 2px solid red; /* Red border for the inner circle */
- border-radius: 50%; /* Ensure the inner circle is circular */
- transition: background-color 0.3s; /* Smooth transition for color change */
- float: right;
- cursor: pointer;
- margin-right: 2px;
+tr.candidate.details2 th[colspan="2"] {
+ background-color: #3399dd; /* Set the background color of the specific row */
+ color: white; /* Set the text color to ensure readability */  
+ border-top-right-radius: 11px;
+ border-top-left-radius:11px;
+}
+tr.candidate.details3 th[colspan="2"] {
+ background-color: #202844 ; /* Set the background color of the specific row */
+ color: white; /* Set the text color to ensure readability */  
+ border-top-right-radius: 11px;
+ border-top-left-radius:11px;
+}
+.candidate-section2 {
+ outline: 2px solid #3399dd; /* Set the border of the candidate section */
+ border-radius: 11px;
+}
+.candidate-section3 {
+ outline: 2px solid #202844; /* Set the border of the candidate section */
+ border-radius: 11px;
 
 }
-
-.outer-circle:hover .inner-circle {
- background-color: red; /* Change background color of inner circle on hover */
+.text{
+ margin-left: 20px;
 }
+.bar {
+ border-left: 2px solid #ffaa44;
+ padding-top: 20px;
+ margin-left: -5px;
+ position: absolute;
+ height: 70px;
+}
+a {
+ color: white;  /* Default link color */
+ text-decoration: none;  /* Remove underline */
+ font-weight: bold;  /* Make text bold */
+ transition: color 0.3s;  /* Smooth color transition */
+}
+a:hover {
+ color: white;  /* Change color on hover */
+ text-decoration: underline;  /* Add underline on hover */
+}
+    .dropdown-arrow {
+     display: inline-block;
+     width: 0;
+     height: 0;
+     border-left: 4px solid transparent;
+     border-right: 4px solid transparent;
+     border-top: 4px solid black;
+     margin-left: 6px; /* Adjust as needed */
+     vertical-align: middle;
+     cursor: pointer;
+   } 
+.client1{
+font-family: sans-serif;
+font-size: larger;
+font-weight: bold;
+margin-top: 2px;
+margin-bottom: 3px;
+ }
+ .client3{
+   padding-top: 2px;
+   margin-bottom: 5px;
+   margin-top: 2px;
+ }
+ tr:nth-child(even) { 
+   background-color:whitesmoke;
+ }
+
+ .inner-row{
+   color: #202844;
+   border-radius: 2px;
+   border: #fd7e14;
+ }
